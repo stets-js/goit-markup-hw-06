@@ -833,6 +833,11 @@ footer {
   cursor: pointer;
 }
 
+.close-btn:hover,
+.close-btn:focus {
+  fill: var(--accent);
+}
+
 /* .icon-close {
   position: absolute;
   top: 0;
@@ -936,7 +941,7 @@ textarea:focus {
 
 .form-field-checkbox {
   padding-left: 14px;
-  margin-top: 25px;
+  margin-top: 20px;
   margin-bottom: 30px;
 }
 
